@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">EBM</string>
+
+    <string name="select_language_en">Select Language</string>
+    <string name="select_language_vi">Chọn ngôn ngữ</string>
+    <string name="select_language_es">Seleccione el idioma</string>
+    <string name="select_language_fr">Choisir la langue</string>
+    <string name="select_language_zh">选择语言</string>
+    <string name="select_language_pt">Selecione o idioma</string>
+    <string name="select_language_ja">言語を選択する</string>
+    <string name="select_language_hi">भाषा चुनिए</string>
+    <string name="select_language_ms">Pilih Bahasa</string>
+    <string name="select_language_ko">언어 선택</string>
+    <string name="select_language_de">Sprache auswählen</string>
+    <string name="select_language_ru">выберите язык</string>
+    <string name="select_language_te">LANGUAGE ఎంచుకోండి</string>
+    <string name="select_language_it">Seleziona la lingua</string>
+    <string name="select_language_nl">Selecteer taal</string>
+    <string name="select_language_ar">اختار اللغة</string>
+
     <string name="tv_directory">DIRECTORY</string>
+    <string name="tv_drand_departments"><![CDATA[drand & departments]]></string>
+    <string name="tv_special_offers">special offers</string>
+    <string name="tv_select_language">Select Language</string>
+    <string name="tv_free_wifi">Free Wifi</string>
+    <string name="tv_available_in_store">available in store</string>
+    <string name="tv_touch_name_to_get_directions">touch name to get directions</string>
+    <string name="tv_viet_nam">VietNam</string>
 </resources>

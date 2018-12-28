@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_5"
+    tools:ignore="UseCompoundDrawables"
+    >
+    <FrameLayout
+        android:id="@+id/imv_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/image_language"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/tv_select_language"
+            android:gravity="center_horizontal"
+            />
+
+        <View
+            android:id="@+id/view_selected"
+            android:layout_width="@dimen/dp_31"
+            android:layout_height="@dimen/dp_31"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_selected_country"
+            android:visibility="invisible"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sp_5"
+        android:textStyle="normal"
+        />
+</LinearLayout>
